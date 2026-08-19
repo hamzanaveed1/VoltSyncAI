@@ -1,0 +1,8 @@
+{
+  "data_mode": "real",
+  "n_homes": 7,
+  "n_systems": 8,
+  "seq_len": 48,
+  "split": "65% train / 15% val / 20% test",
+  "runtime_seconds": 4095.3
+}

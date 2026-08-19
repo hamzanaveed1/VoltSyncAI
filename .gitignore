@@ -1,0 +1,10 @@
+data/raw/*
+data/processed/*
+cache/*
+results/partial/
+models/*.keras
+__pycache__/
+*.pyc
+!.gitkeep
+.venv/
+venv/

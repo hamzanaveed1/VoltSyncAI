@@ -1,0 +1,10 @@
+numpy>=1.26
+pandas>=2.2
+pyarrow>=15.0
+polars>=1.0
+requests>=2.31
+tensorflow>=2.16        # LSTM (3.4.1). Use tensorflow-cpu for CPU-only envs.
+xgboost>=2.0            # Gradient boosting (3.4.2)
+scikit-learn>=1.4
+matplotlib>=3.8
+huggingface_hub>=0.23   # uk_pv download
