@@ -1,5 +1,5 @@
-# VoltSync AI
-### An AI Forecasting Engine for Residential Demand & Solar Generation
+VoltSync AI
+An AI Forecasting Engine for Residential Demand & Solar Generation
 
 Hamza Naveed · 35017370 · MSc Data Science and AI
 Research Skills for Computing (55-710248) · Sheffield Hallam University
@@ -9,12 +9,10 @@ Supervisor: Dr. Efosa Osagie
 
 ## Scope
 
-Implements Chapters 1–3 exactly. Two short-term forecasting tasks, each
+Implements, Two short-term forecasting tasks, each
 evaluated against a seasonal persistence baseline.
 
-Per §1.8 this project deliberately **excludes** energy pricing, trading between
-households, battery storage design or control, and any live or deployed energy
-management system. Those are future work.
+
 
 ## Research questions
 
