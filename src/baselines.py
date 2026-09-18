@@ -1,11 +1,7 @@
 """
 Baseline methods (Chapter 3.4.3).
 
-Seasonal persistence: the forecast for any half hour is the value observed at
-the same time on the previous day. Deliberately simple, and surprisingly hard
-to beat where the daily pattern is strong. Included to guard against the common
-error of declaring a complex model successful when it has not actually improved
-on a trivial one.
+Seasonal persistence
 """
 from __future__ import annotations
 import numpy as np
