@@ -127,17 +127,6 @@ removes the volume problem entirely).
 - **All timestamps are tz-aware UTC.** The BST/UTC mismatch silently shifts half
   the year by an hour.
 
-## Honest limitation of the bundled run
-
-The bundled results use the **synthetic** data generator, which produces the
-identical schema so every module is testable offline. Its solar irradiance
-derives from the same cloud process as its PV output, so the solar model has
-near-perfect information and its accuracy is **optimistic by construction**.
-Expect materially higher error on genuine `uk_pv` data. The demand results are
-more representative, because the synthetic demand contains genuinely
-unpredictable stochastic appliance events.
-
-## Tests
 
 ```bash
 python tests/test_pipeline.py     # 21 checks
