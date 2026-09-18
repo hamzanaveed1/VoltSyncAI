@@ -1,16 +1,5 @@
 """
-Data acquisition and preprocessing (Chapter 3.3 and 3.5).
 
-No new data is collected from users. All data is secondary, from open datasets,
-downloaded within their licence terms (3.5, 3.6).
-
-Preprocessing follows 3.5 in order:
-  1. clean       - flag missing; interpolate short gaps, drop long gaps; remove
-                   negative demand/generation and implausibly high generation;
-                   force night-time solar to zero
-  2. align       - common half-hourly step, single timezone (UTC)
-  3. features    - built in features.py
-  4. split       - chronological, never shuffled
 """
 from __future__ import annotations
 import numpy as np
