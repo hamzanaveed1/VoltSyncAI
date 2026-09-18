@@ -1,11 +1,7 @@
 """
 Solar model: gradient boosting (Chapter 3.4.2).
 
-XGBoost. Solar generation is a feature-based prediction problem driven by
-measurable external factors - weather and time of day - rather than a sequence
-learning problem. Gradient boosting is accurate on tabular features, fast, and
-reports feature importance, so the model can be explained rather than treated
-as a black box (Chen & Guestrin, 2016; Persson et al., 2017).
+
 """
 from __future__ import annotations
 import numpy as np
