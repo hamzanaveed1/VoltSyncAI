@@ -1,14 +1,7 @@
 """
 Feature construction and chronological splitting (Chapter 3.5).
 
-Demand model : window of recent readings + calendar information
-Solar model  : calendar + weather variables + installed capacity
 
-Calendar features are encoded cyclically. Raw integer hour is never used:
-hour 23 and hour 0 must be adjacent in feature space.
-
-Splitting is strictly chronological. Shuffling would give the model a glimpse
-of the future during training and render the predictions meaningless (3.5).
 """
 from __future__ import annotations
 import numpy as np
